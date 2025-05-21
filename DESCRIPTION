@@ -3,7 +3,7 @@ Title: Bootstrap Stability Assessment for Sparse Tensor Models
 Version: 0.1.0
 Authors@R: c(
   person(given = "Gresky", family = "Gutiérrez", role = c("aut", "cre"),
-         email = "greskygutierrez@usal.es")
+         email = "greskygutierrez@gmail.es")
 )
 Description: Implements bootstrap-based stability metrics for sparse solutions obtained from penalized tensor decomposition models, including Elastic Net penalization applied to Tucker models. Provides functions for model fitting, resampling, support analysis, and visualization of stability results.
 Depends: R (>= 4.2.0)
