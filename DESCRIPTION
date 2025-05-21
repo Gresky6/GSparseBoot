@@ -2,24 +2,27 @@ Package: GSparseBoot
 Title: Bootstrap Stability Assessment for Sparse Tensor Models
 Version: 0.1.0
 Authors@R: c(
-  person(given = "Gresky", family = "Gutiérrez", role = c("aut", "cre"),
-         email = "greskygutierrez@gmail.es")
+    person(given = "Gresky", 
+           family = "Gutiérrez", 
+           email = "greskygutierrez@usal.es", 
+           role = c("aut", "cre"))
 )
 Description: Implements bootstrap-based stability metrics for sparse solutions obtained from penalized tensor decomposition models, including Elastic Net penalization applied to Tucker models. Provides functions for model fitting, resampling, support analysis, and visualization of stability results.
 Depends: R (>= 4.2.0)
-Imports:
-  stats,
-  methods,
-  tensor,
-  glmnet,
-  Matrix,
-  ggplot2,
-  reshape2
-Suggests:
-  testthat,
-  knitr,
-  rmarkdown
+Imports: 
+    stats,
+    methods,
+    tensor,
+    glmnet,
+    Matrix,
+    ggplot2,
+    reshape2
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
+
